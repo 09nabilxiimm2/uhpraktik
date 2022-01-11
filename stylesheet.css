@@ -1,0 +1,177 @@
+body {
+ font-family: "Avenir Next";
+}
+li {
+ list-style: none;
+
+}
+
+.kop {
+background-color: blue;
+color: white;
+height: 50px;
+}
+
+.header {
+ background-color: cyan;
+ color: black;
+ height: 100px;
+}
+.header-ok {
+	font-size: 40px;
+	 float: right;
+	 color: #FFD700;
+	 padding: 22px 22px;
+	 border: 4px solid #14236C;
+	 border-radius: 10px;
+	 background-color: red;
+ }
+ 
+ .header-logo {
+ size: 10px;
+ font-size: 36px;
+ float: left;
+
+}
+
+.header-logo img{
+ float: left;
+ border: 3px solid #14236C;
+ border-radius: 8px;
+ 
+}
+ 
+.header-list li{
+	float: left;
+	padding: 10px 17px;
+	border: 4px solid #14236C;
+	 border-radius: 10px;
+	 background-color: blue;
+	 color: white;
+	 margin: 17px 17px;
+}
+.header-list li:hover {
+  margin:10px;
+  display: inline-block;
+  background-color:blue;
+}
+
+.main {
+padding: 50px 100px;
+background-color: #F0F8FF;
+}
+
+.shop {
+	
+background-color: white;
+ 
+ margin-top:100px;
+}	
+
+.shop  span{
+	color: red
+}	
+
+.kategori {
+	height: 150px;
+	background-color:white;
+ margin-top:100px;
+}	
+
+.kategori-item{
+	float:left;
+  margin-right:20px;
+  border-radius:8px;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+.kategori-item p{
+	display:flex;
+  position:relative;
+  justify-content:space-around;
+  text-align:center;
+}
+.kategori-item img{
+border-radius:8px;
+ border:1px solid #14236C;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+.kategori-item p:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+.kategori-item img:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+.hotsale {
+	background-color: white;
+	height: 620px;
+ margin-top:100px;
+ 
+}	
+
+.hotsale-item {
+	float:left;
+	 margin-right:30px;
+}
+.hotsale-item img{
+  border-radius:8px;
+ border:2px solid #14236C;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:250px;
+ height:200px;
+}
+.hotsale-item p{
+ 
+ font-size: 24px;
+ margin-top:30px;
+ background-color:Red;
+ color:#ffff;
+ border: 2px;
+ border-color:black;
+ border-radius:8px;
+text-align:center;
+}	
+.hotsale-item p:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+.hotsale-item img:hover {
+  -webkit-transform: scale(0.85);
+  transform: scale(0.85);
+}
+
+.info {
+	height: 200px ;
+	background-color: white;
+}	
+
+.footer {
+ background-color: #2f5167;
+ color:#fff;
+ height: 120px;
+ padding: 40px;
+}
+.footer-logo{
+	font-size:92px;
+	float:left;
+}
+.footer-list{
+			float:right;
+
+}
+.footer-list li{
+		padding-bottom:20px;
+}
+
+.footer-listo li{
+	text-align: center;
+	padding: 100px 50px;
+	color: #EAC0E9;
+}
